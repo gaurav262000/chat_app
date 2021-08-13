@@ -1,0 +1,211 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    
+}
+body{
+    font-family: 'Segoe UI' ,'Helvetica Neue', Arial, sans-serif;
+    background-image: linear-gradient(180deg,  #c0c0c0, #d2dbdc);
+    
+}
+.feed{
+ 
+color: black;
+font-size: 1.3rem;
+}
+.top{
+    height: 130px;
+    width: 100%;
+    background-color: #009688;
+    position: fixed; 
+    z-index: -1;
+}
+.chat-box{
+    
+    height: 95%;
+    width: 100%;
+    margin-top: 20px;
+    float:right;
+    margin-right:-30%;
+}
+
+.chat-box1{
+    
+    height: 95%;
+    width: 100%;
+    margin-top: 20px;
+    float:right;
+    margin-right:-13%;
+}
+.profile-pic{
+    height: 40px;
+    width: 40px;
+}
+.form-rounded{
+    border-radius: 1rem;
+}
+.friend-pic{
+    height: 50px;
+    width: 50px;
+    margin-left: -10px;
+}
+.name{
+    font-weight: 400;
+    color: #000;
+}
+.under-name{
+    font-size: 12px;
+    line-height: 15px;
+    max-height: 15px;
+    
+}
+.icon{
+    font-size: 20px;
+    color:  #9ca1a3;
+    
+    
+}
+
+.chat-pic{
+    height: 30px;
+    width: 30px;
+    
+}
+.receive{
+    background-color: lavenderblush;
+    border-radius: 1rem;
+    padding: 10px 15px;
+    bottom: -2px;
+  display: inline-block;
+   word-break: break-all;
+}
+
+.receive img{
+ width:250px;
+    padding: 0px 0px;
+    height:350px;
+    
+}
+
+
+.datetime{
+    font-size: 10px;
+    float: right;
+     color: rgba(0, 0, 0, .45);
+     margin-top: 5%;
+     margin-left: 1%;
+     position: relative;
+}
+
+.sent{
+    background-color: lightcyan;
+    border-radius: 1rem;
+    padding: 10px 15px;
+    word-break: break-all;
+  display: inline-block;
+ bottom: -8px;
+}
+.sent img{
+    background-color: black;
+ width:250px;
+    padding: 0px 0px;
+    height:350px;
+     
+ 
+}
+.card{
+    height: 96vh;
+    
+}
+
+#messages{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+}
+.dropdown-toggle::before{
+    display: none !important;
+    
+}
+input[type=text]{
+        word-wrap: break-word;
+        word-break: break-all;
+        
+}
+#emoji{
+    position: absolute;
+    top: -30vh;
+    background-color: whitesmoke;
+    box-shadow: rgba(0,0,0,0.16) 0px 3px 6px, rgba(0,0,0,0.23) 0px 3px 6px;
+}
+
+#emoji #myTabContent{
+    
+    height: 20vh;
+}
+
+#myTabContent a{
+    text-decoration: none;
+    
+}
+#image{
+    position:initial ;
+    top: -30vh;
+    background-color: whitesmoke;
+    box-shadow: rgba(0,0,0,0.16) 0px 3px 6px, rgba(0,0,0,0.23) 0px 3px 6px;
+}
+
+#image #myTabContent{
+    
+    height: 20vh;
+}
+
+#myTabContent #imagesender{
+    text-decoration: none;
+    
+}
+@media screen and (max-width: 770px) {
+    .chat-pic {
+    height: 30px;
+    width: 30px;
+    margin-left: -112%;
+}
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
